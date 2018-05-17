@@ -17,7 +17,7 @@ module RespTimer
       end
 
       def end_count
-        Rails.logger.info
+        Rails.logger.info(resp_message)
       end
 
       def resp_timer_key
