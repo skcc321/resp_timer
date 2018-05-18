@@ -29,7 +29,7 @@ module RespTimer
       end
 
       def resp_message
-        left_part = resp_timer_key.black
+        left_part = resp_timer_key.white
         mid_part = "================>".gray
 
         right_part = if resp_timer_delta > 1
